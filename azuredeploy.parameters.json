@@ -6,15 +6,15 @@
       "value": "aksadmin"
     },
     "uniqueclustername": {
-      "value": "<cluster-name>"
+      "value": "aksjagord"
     },
     "dnsPrefix": {
-      "value": "<dns-name>"
+      "value": "aksjagord"
     },    
     "sshRSAPublicKey": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/<subscription id>/resourceGroups/<resource group>/providers/Microsoft.KeyVault/vaults/<vault name>"
+          "id": "/subscriptions/f9b5da45-54cc-42d3-a58b-87adf6ad27ad/resourceGroups/aksbicep_demo/providers/Microsoft.KeyVault/vaults/jagordvault"
         },
         "secretName": "sshkey"
       }
@@ -22,7 +22,7 @@
     "servicePrincipalClientId": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/<subscription id>/resourceGroups/<resource group>/providers/Microsoft.KeyVault/vaults/<vault name>"
+          "id": "/subscriptions/f9b5da45-54cc-42d3-a58b-87adf6ad27ad/resourceGroups/aksbicep_demo/providers/Microsoft.KeyVault/vaults/jagordvault"
         },
         "secretName": "servicePrincipalClientId"
       }
@@ -30,7 +30,7 @@
     "servicePrincipalClientSecret": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/<subscription id>/resourceGroups/<resource group>/providers/Microsoft.KeyVault/vaults/<vault name>"
+          "id": "/subscriptions/f9b5da45-54cc-42d3-a58b-87adf6ad27ad/resourceGroups/aksbicep_demo/providers/Microsoft.KeyVault/vaults/jagordvault"
         },
         "secretName": "clientSecret"
       }
