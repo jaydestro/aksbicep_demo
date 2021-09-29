@@ -1,9 +1,9 @@
 on: [push]
 env:
   CLUSTER_NAME: aksjagord
-  CLUSTER_RESOURCE_GROUP: aksjagord
-  NAMESPACE: aksjagord
-  APP_NAME: aksjagord
+  CLUSTER_RESOURCE_GROUP: ${{ secrets.AZURE_RG }}
+  NAMESPACE: voteappprod
+  APP_NAME: voteappprod
 
   name: Azure ARM
 jobs:
